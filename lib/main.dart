@@ -1,20 +1,19 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:zagel/api_key.dart';
 import 'package:zagel/auth_screen/presentation/cubit/auth_cubit.dart';
 import 'package:zagel/auth_screen/presentation/view/auth_screen.dart';
 import 'package:zagel/complete_user_profie/presentattion/cubit/user_profile_cubit.dart';
 import 'package:zagel/firebase_options.dart';
 import 'package:zagel/styles/routing.dart';
 
-import 'complete_user_profie/presentattion/view/complete_profile_screen.dart';
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     // ignore: prefer_const_constructors
     options: FirebaseOptions(
-      apiKey: 'AIzaSyApFrnC8XYHKJDYZu0pNJOZjDQfX2Izglo',
+      apiKey: apiKey!,
       appId: 'zageel',
       messagingSenderId: '',
       projectId: 'zageel',
