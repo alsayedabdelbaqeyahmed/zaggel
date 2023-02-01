@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1034168715689",
+    "project_id": "zageel",
+    "storage_bucket": "zageel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034168715689:android:26a5d5a2ee2ca21e6a5cb8",
+        "android_client_info": {
+          "package_name": "com.example.zagel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034168715689-f329epmg4t488567losofvd5e380atad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApFrnC8XYHKJDYZu0pNJOZjDQfX2Izglo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034168715689-f329epmg4t488567losofvd5e380atad.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1034168715689-h5q7p3v5bjuisq799tmamh2akc34i0o4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.zagel"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
